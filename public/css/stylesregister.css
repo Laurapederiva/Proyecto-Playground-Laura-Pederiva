@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(230, 224, 224, 0.308);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+/*HEADER*/
+header {
+    background-color: #EAC926;
+    padding-bottom: 15px;
+}
+
+.img-header {
+    display: flex
+}
+
+.img-mercadoliebre {
+    padding-top: 13px;
+    padding-left: 13px;
+    width: 50%;
+}
+
+.img-mercadoliebre img {
+    width: 100%;
+}
+
+.container-header {
+    width: 50%;
+    padding-top: 18px;
+    padding-left: 13px;
+}
+
+.buscador {
+    display: flex;
+}
+
+.buscador input {
+    width: 70%;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.titulo-cuotas {
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 5px 0px;
+    font-weight: 400;
+}
+
+.navegadores {
+    padding: 0%;
+    display: none;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.fa-bars {
+    background-color: #1259c3;
+    color: #ebebeb;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.lupa-boton {
+    background-color: white;
+    border-radius: 3px;
+    width: 25px;
+    height: 30px;
+    border: none;
+    border-left: 2px solid #cfcfcf;
+    position: relative;
+    right: 3%;
+}
+
+.fa-magnifying-glass {
+    background-color: white;
+    color: grey;
+    font-size: 15px;
+}
+
+
+/*MAIN*/
+
+main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-contenedor2 {
+    background-color: #ebebeb;
+    width: 80%;
+    padding-top: 3%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding-bottom: 3%;
+    margin:auto;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-usuario{
+    width: 25%;
+}
+
+.items2 {
+    padding: 3%;
+    display: flex;
+}
+
+.items-radio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items-check {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+.radio-check {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.input2 {
+    border-radius: 3px;
+    width: 90%;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.titulos-formulario {
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.titulos-foto {
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+.items2 input {
+    padding-left: 5%;
+}
+
+.items-button {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-enviar {
+    background-color: #1259c3;
+    color: white;
+    border-color: #1259c3;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 500ms;
+}
+
+.button-enviar:hover {
+    background-color: #0022AA;
+}
+
+.button-borrar {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #666;
+    transition: background-color 500ms;
+}
+
+.button-borrar:hover {
+    background-color: #ebebeb;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: white;
+    padding-top: 15px;
+    border-top: 2px solid #ebebeb;
+    width: 100%;
+}
+
+.titulo-footer {
+    font-weight: bold;
+    text-align: center;
+    color: #666;
+}
+
+.descripcion-footer {
+    text-align: center;
+    color: #666;
+    font-weight: normal;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.icono-footer {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 7%;
+    transition: color 500ms;
+}
+
+.icono-footer:hover {
+    color: #eaa526;
+}
+
+.copyright-footer {
+    font-weight: lighter;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #666;
+}
+
+
+@media (min-width: 361px) {
+
+    /*HEADER*/
+
+    .logo-header {
+        display: flex;
+    }
+
+    .img-header {
+        width: 66.6%;
+    }
+
+    .img-mercadoliebre {
+        width: 320px;
+        padding-top: 4%;
+    }
+
+    .container-header {
+        width: 100%;
+        padding-top: 27px;
+    }
+
+    .buscador input {
+        width: 100%;
+    }
+
+    .titulo-cuotas {
+        padding-top: 21px;
+    }
+
+    .navegadores {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1%;
+    }
+
+    .navegador-1,
+    .navegador-2 {
+        display: block;
+    }
+
+    .lista {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    a {
+        padding: 10px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+
+    /*MAIN*/
+    .formulario-contenedor2 {
+        max-width: 400px;
+    }
+
+
+    /*FOOTER*/
+    .icono-footer {
+        padding-top: 3%;
+    }
+
+    .copyright-footer {
+        padding-top: 3%;
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    /*HEADER*/
+    .img-header {
+        width: 80%;
+    }
+
+    .img-mercadoliebre {
+        width: 250px;
+        padding-top: 2%;
+    }
+
+    .titulo-cuotas {
+        width: 30%;
+        padding-top: 22px;
+    }
+
+    .navegadores {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .container-header {
+        padding-top: 18px;
+        padding-left: 53px;
+    }
+
+
+    /*MAIN*/
+
+    .formulario-contenedor2 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    /*FOOTER*/
+
+    .footer-contenedor {
+        display: flex;
+    }
+
+    .icono-footer {
+        padding-top: 1%;
+    }
+
+    .copyright-footer {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /*HEADER*/
+    .img-header {
+        width: 100%;
+    }
+
+    .img-mercadoliebre {
+        padding-top: 1%;
+    }
+
+    .titulo-cuotas {
+        width: 25%;
+    }
+}
+
